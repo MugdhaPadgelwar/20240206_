@@ -1,0 +1,387 @@
+body {
+  margin: 0%;
+}
+
+.navbar {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding: 10px 20px;
+}
+
+.logo img {
+  max-width: 50px;
+  margin-right: 4vh;
+}
+
+.text span {
+  display: block;
+  color: white;
+  align-items: left;
+}
+#main-text {
+  font-size: 3vh;
+  font-weight: 200vh;
+  display: block;
+  color: white;
+  /* align-items: left; */
+}
+#sub-text {
+  font-size: 2vh;
+  font-weight: 200vh;
+  color: grey;
+}
+#sub-div {
+  color: white;
+
+  text-decoration: none;
+}
+.anchors {
+  margin-left: 93vh;
+}
+
+.anchors a {
+  color: white;
+  margin-left: 5px;
+  text-decoration: none;
+  width: 70vh;
+  height: 30vh;
+}
+
+#sign-up-button {
+  background-color: #42b883;
+  padding-top: 1.5vh;
+  padding-left: 1.7vh;
+  padding-right: 1.7vh;
+  padding-bottom: 1.5vh;
+  border-radius: 0.7ch;
+  color: black;
+}
+
+#insta-head-text {
+  color: black;
+}
+
+/* Basic styling for search input */
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+.search-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Hover effect for search button */
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.second-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px;
+  height: 7vh;
+  border: solid #dedede;
+}
+
+.second-anchors {
+  margin-right: 6vh;
+}
+
+.second-anchors a img {
+  color: black;
+  text-decoration: none;
+  max-width: 50px;
+  padding-left: 3vh;
+  margin-top: 2vh;
+  height: 4vh;
+  margin-right: 1vh;
+}
+
+#middle-section {
+  display: flex;
+  flex-direction: row;
+}
+
+#left-section {
+  background-color: white;
+  width: 125vh;
+  height: 85vh;
+}
+
+#right-section {
+  background-color: black;
+  width: 53vh;
+  height: 85vh;
+  flex-direction: column;
+}
+
+.html-div {
+  margin-left: 2vh;
+  width: 50vh;
+  height: 28vh;
+  background-color: #333533;
+  border: groove grey;
+  justify-content: space-between;
+  display: flex;
+}
+
+.header-div {
+  background-color: black;
+  width: 50vh;
+  height: 4vh;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* padding: 10px 20px; */
+}
+
+#symbols {
+  display: flex;
+
+  background-color: black;
+  margin: 0 auto;
+  flex-direction: columnz; /* or row, depending on your layout */
+  /* Optionally, you can set container height and width if needed */
+}
+
+#html-logo {
+  background-color: #333533;
+  width: 12vh;
+  height: 4vh;
+  padding-left: 10px;
+  padding-top: 2px;
+  align-items: center;
+  margin-top: 2px;
+}
+
+#html-logo a {
+  text-decoration: none;
+  color: white;
+  height: 8vh;
+}
+
+.grey-style-btn {
+  background-color: #4d4d4f;
+  padding-top: 0.5px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-bottom: 0.5px;
+  border-radius: 0.3ch;
+  margin-right: 5px;
+  margin-top: 5px;
+  align-self: flex-start; /* Aligns the element to the start of the cross axis (top in a column layout) */
+  justify-self: flex-end;
+}
+
+#set-img {
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.css-div {
+  margin-left: 2vh;
+  width: 50vh;
+  height: 28vh;
+  background-color: #333533;
+  border: groove grey;
+  justify-content: space-between;
+  display: flex;
+}
+
+.js-div {
+  margin-left: 2vh;
+  width: 50vh;
+  height: 28vh;
+  background-color: #333533;
+  border: groove grey;
+  justify-content: space-between;
+  display: flex;
+}
+
+#foot-bar {
+  background-color: grey;
+  height: 5vh;
+  margin: 0;
+  padding: 5px 3px;
+}
+
+#follow-button {
+  background-color: #42b883;
+  text-decoration: none;
+  color: black;
+  padding-left: 1vh;
+  padding-right: 1vh;
+  border-radius: 0.2vh;
+}
+
+.instagram-logo img {
+  max-width: 120px;
+  padding-left: 1vh;
+  margin-left: 2vh;
+  margin-top: 2vh;
+}
+
+.card {
+  position: relative;
+  width: 50vh;
+  height: 76vh;
+  background: #fff;
+  box-shadow: 15px 15px 60px rgba(0, 0, 0, 0.15);
+  padding-left: 15vh;
+}
+.card .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card .top .userDeatils {
+  display: flex;
+  align-items: center;
+}
+.card .top .userDeatils .profileImg {
+  position: relative;
+  width: 40px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 8px;
+  overflow: hidden;
+}
+.cover {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+/* .card .top .userDeatils h3 {
+  font-size: 18px;
+  color: #4d4d4f;
+  font-weight: 700;
+  line-height: 1rem;
+  cursor: pointer;
+} */
+/* .card .top .userDeatils span {
+  font-size: 0.75em;
+} */
+/* .card .top .dot {
+  transform: scale(0.6);
+  cursor: pointer;
+} */
+.imgBg {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  margin: 10px 0 15px;
+}
+.btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btns img {
+  max-width: 24px;
+  cursor: pointer;
+}
+.btns .left img {
+  margin-right: 8px;
+}
+.likes {
+  font-size: 1em;
+  color: #4d4d4f;
+}
+.message {
+  color: black;
+  margin: none;
+}
+.message b {
+  color: #262626;
+  margin: none;
+}
+.message span {
+  color: #1d92ff;
+  margin: none;
+}
+.comments {
+  align-items: center;
+  color: #999;
+  margin: none;
+}
+
+.postTime {
+  color: #777;
+  font-size: 2vh;
+}
+
+#set-img {
+  width: 2vh;
+  height: 2vh;
+}
+
+.grey-style {
+  background-color: #4d4d4f;
+  padding-top: 1.5vh;
+  padding-left: 1.7vh;
+  padding-right: 1.7vh;
+  padding-bottom: 1.5vh;
+  border-radius: 0.7ch;
+}
+
+#layout-img {
+  width: 3vh;
+  height: 3vh;
+}
+
+.third-anchors {
+  margin-left: 6px;
+  padding-top: 1.5vh;
+}
+
+#footer-btn {
+  margin-top: 3vh;
+}
+
+.third-anchors a {
+  color: white;
+
+  text-decoration: none;
+  margin-bottom: none;
+  margin-left: 1vh;
+
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  padding-top: 0.1vw;
+  padding-bottom: 0.1vw;
+  border-radius: 0.2ch;
+  background-color: #4d4d4f;
+}
+
+#html-set-img {
+  text-decoration: none;
+  color: white;
+  height: 4vh;
+  width: 4vh;
+  justify-items: center;
+  margin: none;
+  align-items: left;
+  background-color: #333533;
+}
