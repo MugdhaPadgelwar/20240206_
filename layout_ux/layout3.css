@@ -1,0 +1,30 @@
+#nav-bar {
+  background-color: #e5fcc2;
+  height: 10vh;
+}
+
+#middle-section {
+  display: flex;
+  flex-direction: row;
+}
+
+#left-section {
+  background-color: #9de0ad;
+  width: 40vh;
+  height: 78vh;
+}
+#mid-section {
+  background-color: #45ada8;
+  width: 100vh;
+  height: 78vh;
+}
+
+#right-section {
+  background-color: #9de0ad;
+  width: 40vh;
+  height: 78vh;
+}
+#foot-bar {
+  background-color: #547980;
+  height: 10vh;
+}

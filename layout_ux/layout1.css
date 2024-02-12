@@ -1,0 +1,12 @@
+#border-box {
+  width: 1000px;
+  height: 500px;
+  margin: 50px;
+  margin-top: 18vh;
+  margin-bottom: 18vh;
+  background-color: black;
+  margin-left: 25vh;
+  margin-right: 25vh;
+  display: flex;
+  justify-content: center;
+}
